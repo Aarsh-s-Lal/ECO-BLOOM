@@ -2,7 +2,7 @@
 
 EcoBloom is a community-driven environmental platform designed to make urban greening accessible, transparent, and impactful. By combining intelligent guidance on plant care with donation-enabled tree plantation initiatives, EcoBloom empowers individuals, NGOs, and communities to take meaningful action against climate change.
 
-> 🏆 Developed as part of the B.Tech Final Year Project by Ishita Gupta, Garv Malhotra, and Aarsh S Lal under the guidance of Dr. Nitika Nigam, School of Computer Science, UPES.
+> 🏆 Developed as part of the B.Tech Minor-Project by Aarsh S Lal under the guidance of Dr. Nitika Nigam, School of Computer Science, UPES.
 
 ---
 
@@ -144,13 +144,34 @@ git clone https://github.com/your-org/ecobloom.git
 cd ecobloom
 
 # Install backend dependencies
-cd backend
-npm install
+cd backend/apiGateway
+npm i
+npm run dev
+
+cd backend/services/adminService
+npm i
+npm run dev
+
+cd backend/services/authService
+npm i
+npm run dev
+
+cd backend/services/mailService
+npm i
+npm run dev
+
+cd backend/services/memberService
+npm i
+npm run dev
+
+cd backend/services/userService
+npm i
+npm run dev
 
 # Install frontend dependencies
-cd ../frontend
-npm install
+cd ../client
+npm i
+npm run dev
 
 # Run backend and frontend
-npm run dev       # for frontend (React)
-npm start         # for backend (Node.js)
+Then ACCESS THE IP ADDRESS RUNNING ON LOCAL HOST : "http//---"
